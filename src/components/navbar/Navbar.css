@@ -1,0 +1,19 @@
+.n-wrapper {
+  justify-content: space-between;
+  color: var(--primary);
+}
+
+.img-container {
+  gap: .5rem;
+}
+
+.n-list > ul {
+  list-style-type: none;
+  font-weight: 600;
+  gap: 2rem;
+}
+
+li:hover {
+  color: var(--secondary);
+  cursor: pointer;
+}
