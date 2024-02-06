@@ -83,6 +83,36 @@ a {
   font-weight: 600;
 }
 
+.primaryButton {
+  background: var(--primary);
+  padding: .5rem 1rem;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  transition: all 300ms ease-in;
+}
+
+.secondaryButton {
+  background: var(--secondary);
+  padding: .5rem 1rem;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  transition: all 300ms ease-in;
+}
+
+.primaryButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.secondaryButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 @media (min-width: 1536px) {
   .innerWidth {
     max-width: 1280px;

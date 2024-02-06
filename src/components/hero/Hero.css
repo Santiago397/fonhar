@@ -1,0 +1,41 @@
+.h-wrapper {
+  background-image: url('D:\Clients\Fonhar\code\fonhar-sas\public\hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem 3rem;
+}
+
+.h-container {
+  gap: 3rem;
+}
+
+.h-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.h-text h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0.5rem;
+  width: 70%;
+  color: white;
+}
+
+.buttons {
+  gap: 1.5rem;
+}
+
+.buttons button {
+  gap: .5rem;
+}
+
+@media (max-width: 640px) {
+  .buttons {
+    flex-wrap: wrap;
+  }
+}
