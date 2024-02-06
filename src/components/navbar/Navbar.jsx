@@ -2,7 +2,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <section className="flexCenter innerWidth paddings n-wrapper">
+    <section className="innerWidth paddings n-wrapper">
       <div className='flexStart img-container'>
         <img src="./logo.png" alt="brand logo" />
         <h3>Fonhar SAS</h3>
